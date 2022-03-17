@@ -4,5 +4,4 @@ const app = express();
 
 app.get('/', (req, res) => res.send('Server is running'));
 
-app.listen(8080);
-console.log("🚀 Server running at http://localhost:8080/");
+app.listen(443, () => console.log('🚀 Server is running'));
